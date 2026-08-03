@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>پەڕەیا من | My Profile</title>
-    <!-- لێرە مە فۆنتێ نێڤدەولەتی یێ گونجای بکارئینایە -->
     <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            background-color: #0f172a;
+            /* پاشبنەمایەکێ تاری و نێزیک ل ڕەنگ و برێسکەیێن وێنەیێ لۆگۆی */
+            background: linear-gradient(135deg, #090d16 0%, #05070a 100%);
             color: #ffffff;
             font-family: 'Tajawal', sans-serif;
             display: flex;
@@ -31,17 +31,18 @@
             object-fit: cover;
             border: 4px solid #38bdf8;
             margin-bottom: 20px;
-            box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+            box-shadow: 0 0 25px rgba(56, 189, 248, 0.4);
         }
         h1 {
             font-size: 24px;
             margin-bottom: 30px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
         }
         .btn {
             display: flex;
             align-items: center;
             justify-content: center;
-            background-color: #1e293b;
+            background-color: rgba(30, 41, 59, 0.8);
             color: white;
             padding: 12px 20px;
             margin: 15px 0;
@@ -50,12 +51,13 @@
             font-size: 18px;
             font-weight: bold;
             transition: 0.3s;
-            border: 1px solid #334155;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border: 1px solid rgba(56, 189, 248, 0.3);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
         }
         .btn:hover {
             transform: translateY(-3px);
-            background-color: #334155;
+            background-color: rgba(51, 65, 85, 0.9);
+            box-shadow: 0 6px 15px rgba(56, 189, 248, 0.2);
         }
         .btn img {
             width: 28px;
@@ -73,20 +75,20 @@
 <body>
 
     <div class="container">
-        <!-- وێنەیێ لوگۆی (پێدڤیە فایلێ logo.png د هەمان پشکێدا بیت) -->
+        <!-- وێنەیێ لۆگۆ -->
         <img src="logo.png" alt="Logo" class="logo">
         
         <h1>خێر هاتن بۆ پەڕەیا من</h1>
 
-        <!-- کوشکا تیکتۆکی (راستەوخۆ دچتە سەر پروفایلی) -->
+        <!-- کوشکا تیکتۆکی -->
         <a href="https://www.tiktok.com/@r_german?_r=1&_t=ZS-98aMTFZnqc8" target="_blank" class="btn tiktok-btn">
             <span>تیکتۆک (TikTok)</span>
             <img src="https://cdn-icons-png.flaticon.com/512/3046/3046121.png" alt="TikTok">
         </a>
 
-        <!-- کوشکا سناپچاتی (راستەوخۆ دچتە سەر ئەکاونتی) -->
+        <!-- کوشکا سناپچاتی (ب تنێ ئایکۆنا سناپچاتی و لینکێ تە یێ تایبەت) -->
         <a href="https://snapchat.com/t/JETR6xEy" target="_blank" class="btn snap-btn">
-            <span>سناپچات (Snapchat)</span>
+            <span>سناپچات</span>
             <img src="https://cdn-icons-png.flaticon.com/512/3670/3670157.png" alt="Snapchat">
         </a>
     </div>
