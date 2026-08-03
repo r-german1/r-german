@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R-GERMAN</title>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+    <!-- فۆنتێ نێڤدەولەتی یێ تایبەت ب زمانێن ڕۆژهەڵاتی -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            /* پاشبنەمایەکێ ڕەش و شینێ ڕۆشن (Light Blue Gradient) */
             background: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
             color: #ffffff;
-            font-family: 'Tajawal', sans-serif;
+            font-family: 'Noto Sans Arabic', sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -38,14 +38,17 @@
             margin-bottom: 10px;
             color: #38bdf8;
             text-shadow: 0 0 12px rgba(56, 189, 248, 0.6);
+            direction: rtl;
+            unicode-bidi: isolate;
         }
         p {
             font-size: 15px;
-            /* ڕەنگێ شینێ ڕۆشن و جوان بۆ تێکستا دووەم دا ب ڕوونی دیار ببیت */
             color: #7dd3fc;
             margin-bottom: 25px;
-            line-height: 1.5;
+            line-height: 1.6;
             text-shadow: 0 0 8px rgba(125, 211, 252, 0.4);
+            direction: rtl;
+            unicode-bidi: isolate;
         }
         .btn {
             display: flex;
@@ -62,6 +65,7 @@
             transition: 0.3s;
             border: 1px solid rgba(56, 189, 248, 0.4);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+            direction: rtl;
         }
         .btn:hover {
             transform: translateY(-3px);
